@@ -45,7 +45,7 @@ const About = () => {
                 <div key={index} className="flex flex-col items-center">
                   <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
                     <img
-                      src={`../../public/image${index + 5}.png`}
+                      src={`/image${index + 5}.png`}
                       alt={skill}
                       className="w-12 h-12 object-contain"
                     />

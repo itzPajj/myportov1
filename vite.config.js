@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/myportov1/', // Tambahkan '/myportov1/' di sini
+  base: '/myportov1/',
   plugins: [react()],
 });

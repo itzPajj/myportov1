@@ -13,7 +13,7 @@ const Tools = () => {
             {/* Tool 1 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools1.png"
+                src="/tools1.png"
                 alt="Tool 1"
                 className="w-36 h-36 object-contain"
               />
@@ -21,7 +21,7 @@ const Tools = () => {
             {/* Tool 2 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools2.png"
+                src="/tools2.png"
                 alt="Tool 2"
                 className="w-36 h-36 object-contain"
               />
@@ -29,7 +29,7 @@ const Tools = () => {
             {/* Tool 3 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools3.png"
+                src="/tools3.png"
                 alt="Tool 3"
                 className="w-36 h-36 object-contain"
               />
@@ -37,7 +37,7 @@ const Tools = () => {
             {/* Tool 4 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools4.png"
+                src="/tools4.png"
                 alt="Tool 4"
                 className="w-36 h-36 object-contain"
               />
@@ -45,7 +45,7 @@ const Tools = () => {
             {/* Tool 5 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools5.png"
+                src="/tools5.png"
                 alt="Tool 5"
                 className="w-36 h-36 object-contain"
               />
@@ -53,7 +53,7 @@ const Tools = () => {
             {/* Tool 6 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools6.png"
+                src="/tools6.png"
                 alt="Tool 6"
                 className="w-36 h-36 object-contain"
               />
@@ -61,7 +61,7 @@ const Tools = () => {
             {/* Tool 7 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools7.png"
+                src="/tools7.png"
                 alt="Tool 7"
                 className="w-36 h-36 object-contain"
               />
@@ -69,7 +69,7 @@ const Tools = () => {
             {/* Tool 8 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools8.png"
+                src="/tools8.png"
                 alt="Tool 8"
                 className="w-36 h-36 object-contain"
               />
@@ -77,7 +77,7 @@ const Tools = () => {
             {/* Tool 9 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/tools9.png"
+                src="/tools9.png"
                 alt="Tool 9"
                 className="w-36 h-36 object-contain"
               />
@@ -85,7 +85,7 @@ const Tools = () => {
             {/* Tool 10 */}
             <div className="flex items-center justify-center">
               <img
-                src="../../public/collab.png"
+                src="/collab.png"
                 alt="Tool 10"
                 className="w-36 h-36 object-contain"
               />

@@ -5,7 +5,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <section className="text-white pt-10 border-t border-gray-600">
+    <section id='footer' className="text-white pt-10 border-t border-gray-600">
       <div className="container pt-4 w-full mx-auto px-6 md:px-12 lg:px-20">
         {/* Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

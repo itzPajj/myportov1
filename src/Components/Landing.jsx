@@ -17,7 +17,7 @@ const Landing = () => {
 
           {/* Download Resume Button */}
           <a
-            href="../../public/CV_Muh. Fajri Kanugraha Agung.pdf"
+            href="/CV_Muh. Fajri Kanugraha Agung.pdf"
             download="Muh. Fajri Kanugraha Agung.pdf"
             className="inline-block px-6 py-3 mb-6 text-white text-xl font-semibold rounded-lg shadow-lg bg-gradient-to-r from-[#B23039] to-[#1B1F4D] hover:opacity-90 transition-opacity duration-300 hover:scale-110"
             >
@@ -72,7 +72,7 @@ const Landing = () => {
         {/* Right Side */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="../../public/fajri.png"
+            src="/fajri.png"
             alt="Muh Fajri Kanugraha Agung"
             className="w-96 h-auto"
             />

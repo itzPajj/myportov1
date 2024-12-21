@@ -16,7 +16,7 @@ const Project = () => {
           {/* Card 1 */}
           <div className="bg-[#FFFFFF] max-w-sm mx-auto rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-xl hover:pointer-selected">
             <img
-              src="/ss1.png"
+              src="././ss1.png"
               alt="Project 1"
               className="w-full h-48 object-cover"
             />
@@ -31,7 +31,7 @@ const Project = () => {
           {/* Card 2 */}
           <div className="bg-[#FFFFFF] max-w-sm mx-auto rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-xl">
             <img
-              src="/public/ss2.png"
+              src="././ss2.png"
               alt="Project 2"
               className="w-full h-48 object-cover"
             />
@@ -46,7 +46,7 @@ const Project = () => {
           {/* Card 3 */}
           <div className="bg-[#FFFFFF] max-w-sm mx-auto rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-xl">
             <img
-              src="/public/collab.png"
+              src="././collab.png"
               alt="Project 3"
               className="w-full h-48 object-cover"
             />

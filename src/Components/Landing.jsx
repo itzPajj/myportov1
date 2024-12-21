@@ -69,10 +69,14 @@ const Landing = () => {
           </div>
         </div>
 
-        {/* Right Side */}
+    {/* Right Side */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
+<<<<<<< HEAD
             src="././fajri.png"
+=======
+            src="/fajri.png"
+>>>>>>> f876e9a5db1500d6fdc3b0f70de388cbebcbf8b0
             alt="Muh Fajri Kanugraha Agung"
             className="w-96 h-auto"
             />

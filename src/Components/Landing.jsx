@@ -72,11 +72,7 @@ const Landing = () => {
         {/* Right Side */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-<<<<<<< HEAD
-            src="/fajri.png"
-=======
-            src="./public/fajri.png"
->>>>>>> df4b284d708427df56ebef6e4a523e48c4529937
+            src="././fajri.png"
             alt="Muh Fajri Kanugraha Agung"
             className="w-96 h-auto"
             />

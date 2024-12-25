@@ -5,7 +5,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Project = () => {
   return (
     <section id="project">
-      <div className="container mx-auto px-4 md:px-6 bg-[#FFFFF] py-16">
+      <div className=" px-4 md:px-6 bg-[#FFFFF] py-16">
         {/* Project Section */}
         <div className="text-center text-white mb-12">
           <h3 className="text-3xl font-bold mb-4">Project</h3>
@@ -61,7 +61,7 @@ const Project = () => {
           </div>
         </div>
 
-        <p className="my-5 text-center text-white">
+        <p className="my-5 text-center text-white"> 
           <a
             href="https://www.linkedin.com/in/fajri-kanugraha-agung-28337233a/"
             target="_blank"

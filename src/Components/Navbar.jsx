@@ -11,13 +11,14 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="border-slate-500 bg-[#201E1F] drop-shadow-xl">
+      <nav className="border-slate-500 bg-[#201E1F] drop-shadow-xl sticky top-0 relative z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* Title */}
           <a href="#landing" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center text-2xl font-bold whitespace-nowrap text-[#FEFDFD]">
+            {/* <span className="self-center text-2xl font-bold whitespace-nowrap text-[#FEFDFD]">
               Fajri Kanugraha
-            </span>
+            </span> */}
+            <img src="././iconPaj.png" alt="icon pajri" className="self-center md:ml-7"/>
           </a>
 
           {/* User Menu Button */}
@@ -57,7 +58,7 @@ class Navbar extends React.Component {
             }`}
             id="navbar-user"
           >
-            <ul className="flex flex-col font-small p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#201E1F]">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#201E1F]">
               <li>
                 <a
                   href="#about"

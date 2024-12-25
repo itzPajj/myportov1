@@ -18,7 +18,7 @@ class Navbar extends React.Component {
             {/* <span className="self-center text-2xl font-bold whitespace-nowrap text-[#FEFDFD]">
               Fajri Kanugraha
             </span> */}
-            <img src="././iconPaj.png" alt="icon pajri" className="self-center md:ml-7"/>
+            <img src="././iconPaj.png" alt="icon pajri" className="self-center w-10 h-auto md:ml-7"/>
           </a>
 
           {/* User Menu Button */}

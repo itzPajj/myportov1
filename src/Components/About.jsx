@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const About = () => {
   return (
@@ -8,9 +8,8 @@ const About = () => {
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold mb-4">About Me</h3>
           <p className="text-lg max-w-3xl mx-auto leading-relaxed">
-            I am a 7th-semester Informatics student who is enthusiastic about technology and design.
-            With creativity and logical analysis, I am capable of designing and building websites.
-            I believe these skills position me as a Junior level of UI/UX designer and Web Developer.
+            I am a Junior Frontend Developer and Data Analyst who focuses on building scalable frontend applications and extracting insights from data. I work with React, Tailwind CSS, and modern web tools, and I have experience in sentiment analysis using Naive Bayes.
+            <br /> I am eager to continuously learn, improve, and contribute to impactful projects.
           </p>
         </div>
 

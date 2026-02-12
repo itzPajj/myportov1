@@ -5,7 +5,8 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import p1 from "../assets/ss1.png";
 import p2 from "../assets/ss2.png";
-import p3 from "../assets/collab.png";
+import p3 from "../assets/sentimenYT.png";
+import p4 from "../assets/krl.png";
 
 const projects = [
   {
@@ -15,7 +16,7 @@ const projects = [
     short:
       "A digital payment application design that allows transfers to all platforms with minimal admin fees.",
     detail:
-      "This UI/UX project focuses on fintech usability, modern layout, clear user flow, and minimal friction in transaction processes.",
+      "Money Infinite is a UI/UX design project for a digital payment application focused on simplicity, efficiency, and user trust. This project emphasizes a clean and modern interface with a clear user flow to minimize friction during transactions. The design process includes user journey mapping, wireframing, and high-fidelity prototyping to ensure intuitive navigation and accessibility. The goal of this project is to improve user experience in fintech applications by reducing cognitive load and enhancing transaction clarity."
   },
   {
     id: 2,
@@ -24,26 +25,46 @@ const projects = [
     short:
       "A complaint website for infrastructure that is no longer functional or suitable and needs repair.",
     detail:
-      "This website helps users report damaged infrastructure efficiently with structured data and clear reporting flow.",
+      "Petruk is a web-based infrastructure complaint system designed to help citizens report damaged or non-functional public facilities. This project focuses on structured data input, clear reporting flow, and ease of use for both users and administrators. The system allows users to submit reports with descriptions and locations, enabling faster response and better documentation. This project demonstrates my ability to design and develop functional web applications that solve real-world problems using logical workflows and user-centered design."
   },
   {
     id: 3,
     title: "Sentiment Analysis YouTube",
-    image: p3, 
+    image: p3,
     short:
       "Sentiment analysis of YouTube comments on the boxing match using Naive Bayes.",
     detail:
-      "Data scraping, text preprocessing, and sentiment classification using Naive Bayes algorithm.",
+      "This project analyzes public sentiment from YouTube comments related to a boxing match using the Naive Bayes classification algorithm. The workflow includes data scraping, text preprocessing (such as case folding, tokenization, stopword removal), and sentiment classification into positive, neutral, and negative categories. The project demonstrates my understanding of data analysis fundamentals, machine learning concepts, and how data-driven insights can be extracted from social media platforms."
   },
   {
     id: 4,
-    title: "Sentiment Analysis KRL Jogja-Solo",
+    title: "Sentiment Analysis KRL Jogja–Solo",
     image: p4,
     short:
-      "Sentiment analysis of Commuter",
+      "Sentiment analysis of public opinions on KRL Jogja–Solo using Twitter and TikTok data.",
     detail:
-      "Data scraping, text preprocessing, and sentiment classification using Naive Bayes algorithm.",
-  },
+      "This project analyzes public sentiment toward KRL Jogja–Solo services using data from Twitter and TikTok. The results show that neutral sentiment dominates user opinions. To address class imbalance, SMOTE was applied to the training data. Using TF-IDF features and a Multinomial Naïve Bayes classifier, the model achieved 76.21% accuracy, with the best performance on neutral sentiment classification, demonstrating that Naïve Bayes is an effective and efficient approach for sentiment analysis.",
+  }
+ 
+  // {
+  //   id: 2,
+  //   title: "Website Pengaduan Infrastruktur (Petruk)",
+  //   image: p2,
+  //   short:
+  //     "A complaint website for infrastructure that is no longer functional or suitable and needs repair.",
+  //   detail:
+  //     "This website helps users report damaged infrastructure efficiently with structured data and clear reporting flow.",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Sentiment Analysis YouTube",
+  //   image: p3, 
+  //   short:
+  //     "Sentiment analysis of YouTube comments on the boxing match using Naive Bayes.",
+  //   detail:
+  //     "Data scraping, text preprocessing, and sentiment classification using Naive Bayes algorithm.",
+  // },
+  
 ];
 
 const Project = () => {
@@ -76,7 +97,7 @@ const Project = () => {
                 <h3 className="text-xl font-bold mb-2">
                   {project.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-justify">
                   {project.short}
                 </p>
               </div>
@@ -126,7 +147,7 @@ const Project = () => {
               {selectedProject.title}
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-justify">
               {selectedProject.detail}
             </p>
           </div>

@@ -62,7 +62,16 @@ class Navbar extends React.Component {
               <li>
                 <a
                   href="#about"
-                  className="block py-2 px-3 text-[#FEFDFD] rounded md:p-0 hover:bg-white hover:text-gray-800"
+                  className="
+                    relative block py-2 px-3 md:p-0 text-[#FEFDFD]
+                    transition-colors duration-300
+                    hover:text-gray-300
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-[2px] after:w-0
+                    after:bg-gradient-to-r after:from-[#B23039] after:to-[#1B1F4D]
+                    after:transition-all after:duration-300
+                    hover:after:w-full
+                  "
                   aria-current="page"
                 >
                   About Me
@@ -71,7 +80,16 @@ class Navbar extends React.Component {
               <li>
                 <a
                   href="#project"
-                  className="block py-2 px-3 text-[#FEFDFD] rounded md:p-0 hover:bg-white hover:text-gray-800"
+                  className="
+                    relative block py-2 px-3 md:p-0 text-[#FEFDFD]
+                    transition-colors duration-300
+                    hover:text-gray-300
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-[2px] after:w-0
+                    after:bg-gradient-to-r after:from-[#B23039] after:to-[#1B1F4D]
+                    after:transition-all after:duration-300
+                    hover:after:w-full
+                  "
                 >
                   Project
                 </a>
@@ -79,7 +97,16 @@ class Navbar extends React.Component {
               <li>
                 <a
                   href="#footer"
-                  className="block py-2 px-3 text-[#FEFDFD] rounded md:p-0 hover:bg-white hover:text-gray-800"
+                  className="
+                    relative block py-2 px-3 md:p-0 text-[#FEFDFD]
+                    transition-colors duration-300
+                    hover:text-gray-300
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-[2px] after:w-0
+                    after:bg-gradient-to-r after:from-[#B23039] after:to-[#1B1F4D]
+                    after:transition-all after:duration-300
+                    hover:after:w-full
+                  "
                 >
                   Contact Me
                 </a>

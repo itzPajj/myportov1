@@ -23,7 +23,7 @@ const Landing = () => {
               Fresh Graduate IT
             </h2>
 
-            <a href={`${import.meta.env.BASE_URL}CV_Muh. Fajri Kanugraha Agung.pdf`} download>
+            <a href={`${import.meta.env.BASE_URL}CV_Muh. Fajri Kanugraha Agung.pdf`} className="inline-block px-6 py-3 mb-8 text-white text-lg font-semibold rounded-lg shadow-lg bg-gradient-to-r from-[#B23039] to-[#1B1F4D] hover:opacity-90 hover:scale-105 transition" download>
               My Resume
             </a>
 
